@@ -15,7 +15,7 @@ h2 {
 }
 
 p {
-	font-family: 'Nunito', sans-serif;
+	font-family: 'Fredoka One', cursive;
 	padding: 15px;
 	color: black;
 }
@@ -23,9 +23,6 @@ p {
 @font-face {
   font-family: 'Fredoka One', cursive;
   src: url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
-
-  font-family: 'Yusei Magic', sans-serif;
-  src: url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
 }
 
 /* Large devices only */
@@ -34,7 +31,7 @@ p {
 	h1 {
 	text-align: center;
 	font-family: 'Fredoka One', cursive;
-	font-size: 3em;
+	font-size: 2.5em;
 	padding: 5px;
 	}
 	
@@ -175,7 +172,7 @@ p {
 	h1 {
 	text-align: center;
 	font-family: 'Fredoka One', cursive;
-	font-size: 1.5em;
+	font-size: 1.75em;
 	padding: 5px;
 	}
 
