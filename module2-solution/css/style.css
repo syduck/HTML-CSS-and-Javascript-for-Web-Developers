@@ -1,0 +1,236 @@
+
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-size: 16px;
+	
+}
+
+h2 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 1em;
+	padding: 5px;
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
+	padding: 15px;
+	color: black;
+}
+
+@font-face {
+  font-family: 'Fredoka One', cursive;
+  src: url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+  font-family: 'Nunito', sans-serif;
+  src: url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+}
+
+/* Large devices only */
+@media (min-width: 992px) {
+
+	h1 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 3em;
+	padding: 5px;
+	}
+	
+	div#container {
+		top: 10%;
+		position: relative;
+		margin: 10%;
+	}
+
+	div#box1 {
+		background-color: lightpink;
+		border: 1px solid black;
+		float: left;
+		position: relative;
+		width: 30%;
+		margin: 10px;	
+	}
+
+	div#box2 {
+		background-color: tan;
+		border: 1px solid black;
+		float: left;
+		position: relative;
+		width: 30%;
+		margin: 10px;	
+	}
+
+	div#box3 {
+		background-color: beige;
+		border: 1px solid black;
+		float: left;
+		position: relative;
+		width: 30%;
+		margin: 10px;	
+	}
+
+	div#title1 {
+		background-color: hotpink;
+		border: 1px solid black;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title2 {
+		background-color: saddlebrown;
+		border: 1px solid black;
+		color: white;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title3 {
+		background-color: dodgerblue;
+		border: 1px solid black;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+
+}
+
+
+/* Medium devices only */
+@media (min-width: 768px) and (max-width: 991px) {
+
+	h1 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 3em;
+	padding: 5px;
+	}
+
+	div#container {
+		position: relative;
+		margin: 10%;
+	}
+
+	div#box1 {
+		background-color: lightpink;
+		border: 1px solid black;
+		float: left;
+		margin: 0 0 10px 0;
+		width: 49%;			
+	}
+
+	div#box2 {
+		background-color: tan;
+		border: 1px solid black;
+		color: white;
+		float: right;
+		margin: 0 0 10px 0;
+		width: 49%;
+	}
+
+	div#box3 {
+		background-color: beige;
+		border: 1px solid black;
+		float: left;
+		margin: 0 10px 10px 0;
+		width: 100%;
+	}
+
+	div#title1 {
+		background-color: hotpink;
+		border: 1px solid black;
+		width: 40%;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title2 {
+		background-color: saddlebrown;
+		border: 1px solid black;
+		width: 40%;
+		color: white;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title3 {
+		background-color: dodgerblue;
+		border: 1px solid black;
+		width: 40%;
+		float: right;
+		margin: 0 0 2% 59%;
+		width: 40%;
+	}
+}
+
+/* Small devices only */
+@media (max-width: 767px) {
+
+	h1 {
+	text-align: center;
+	font-family: 'Fredoka One', cursive;
+	font-size: 2em;
+	padding: 5px;
+	}
+
+	div#container {
+		position: relative;
+		margin: 10%;
+	}
+
+	div#box1 {
+		background-color: lightpink;
+		border: 1px solid black;
+		width: 100%;
+		margin: 10px;	
+	}
+
+	div#box2 {
+		background-color: tan;
+		border: 1px solid black;
+		width: 100%;
+		margin: 10px;
+	}
+
+	div#box3 {
+		background-color: beige;
+		border: 1px solid black;
+		width: 100%;
+		margin: 10px;
+	}
+
+	div#title1 {
+		background-color: hotpink;
+		border: 1px solid black;
+		width: 40%;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title2 {
+		background-color: saddlebrown;
+		border: 1px solid black;
+		width: 40%;
+		color: white;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+
+	div#title3 {
+		background-color: dodgerblue;
+		border: 1px solid black;
+		width: 40%;
+		float: right;
+		margin: 0 0 3% 59%;
+		width: 40%;
+	}
+}
+
