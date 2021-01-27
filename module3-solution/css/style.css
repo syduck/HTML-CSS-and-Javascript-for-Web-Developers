@@ -32,9 +32,12 @@ body {
  	padding: 1% 5% 5% 5%;
  }
 
- div#box {
- 	background-color: papayawhip;
+ div#foodbox {
+ 	box-sizing: border-box;
+ 	background-color: papayawhip; 	
  	border-radius: 15px;
+ 	margin: 15px;
+ 	padding: 5px;
  }
 
 .navbar-header { 
@@ -67,6 +70,7 @@ body {
 #nav-list a {
 	color: darkolivegreen;
 	text-align: center;
+	border: 1px solid saddlebrown;
 }
 
 #nav-list a:hover {
